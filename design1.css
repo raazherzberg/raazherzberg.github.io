@@ -34,7 +34,7 @@ body {
 
 .header_image {
 	position: absolute;
-    padding-top: 13px;
+    padding-top: 5px;
     padding-botttom: 22px;
 }
 
@@ -809,7 +809,7 @@ a#fullscreen:active {
 
 .project_thumb {
 	display: inline-block;
-	margin: 0 35px 26px 0;
+	margin: 0 35px 17px 0;
 	position: relative;
 	text-align: center;
 	font-size: 12px;
@@ -1074,12 +1074,12 @@ a#fullscreen:active {
 	font-family: "Droid Sans Mono", Monaco, Monospace, san-serif;
 	font-size: 10px;
 	height: 30px;
-	line-height: 26px;
+	line-height: 17px;
 	width: 300px;
 }
 
 .audio_component div {
-	height: 26px;
+	height: 17px;
 }
 
 .audio_component .border {
