@@ -35,6 +35,7 @@ body {
 .header_image {
 	position: absolute;
     padding-top: 13px;
+    padding-botttom: 22px;
 }
 
 .header_image img {
