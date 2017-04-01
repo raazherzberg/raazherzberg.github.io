@@ -1,7 +1,7 @@
 :root {
   --mainColor: #252f30;
-  --imageWidth: 25vw;
-  --imageHeight: 12.5vw;
+  --imageWidth: 21vw;
+  --imageHeight: 14vw;
   --black: #777;
   --lightGray: rgb(255,255,255);
   --pink: pink;
@@ -42,21 +42,22 @@ body {
 }
 
 .navLink {
-	padding: 0 5px 10px 40px;
-	font-family: 'Muli', sans-serif;
+	padding: 0 4px 7px 30px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .projectLink {
-	padding: 0 5px 10px 40px;
-	font-family: Raleway;
+	padding: 0 4px 7px 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: light;
 }
 
 .navLink {
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .projectLink {
-	font-size: 1em;
+	font-size: 0.9em;
 }
 
 
@@ -66,9 +67,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .chosen {
-	font-weight: bold;
-	color: var(--mainColor) !important;
-	color: #20a58e !important;
+	color: #dbdddd !important;
 }
 
 #ov {
@@ -81,17 +80,19 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #myName {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	padding: 30px 0 10px 27px;
+    letter-spacing: 0.3px;
+    font-family: 'Scope One', serif;
 }
 
 .imgContainer {
 	width: var(--imageWidth);
-	width: 45vw;
+	width: 25vw;
 	overflow: hidden;
 	float: left;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	margin-right: 25px;
+	margin-bottom: 65px;
 	background: var(--mainColor);
 	background: var(--lightGray);
 	position: relative;
@@ -117,6 +118,7 @@ iframe {
 hr {
 	width: 8em;
 	margin-left: 25px;
+	border-top: none;
 }
 
 #bottomText {
@@ -157,7 +159,7 @@ body::-webkit-scrollbar-thumb
 
 .imgContainer img {
 	width: var(--imageWidth);
-	width:45vw;
+	height: var(--imageHeight);
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
@@ -304,5 +306,5 @@ body::-webkit-scrollbar-thumb
 
 .mailLink {
 	color: var(--mainColor) !important;
-	color: #20a58e !important;
+	color: var(--lightGray) !important;
 }
