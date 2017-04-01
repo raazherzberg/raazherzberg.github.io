@@ -19,6 +19,13 @@
 }
 
 @font-face {
+    font-family: Muli;
+    src: url('https://fonts.googleapis.com/css?family=Muli');
+    font-family: 'Muli', sans-serif;
+	font-weight: regular;
+}
+
+@font-face {
     font-family: OpenSans;
     src: url(opensans/OpenSans-Regular.ttf);
 	src: url(opensans/OpenSans-Regular.eot);
@@ -43,7 +50,7 @@ body {
 
 .navLink {
 	padding: 0 5px 10px 40px;
-	font-family: OpenSans;
+	font-family: Muli;
 }
 
 .projectLink {
@@ -304,5 +311,5 @@ body::-webkit-scrollbar-thumb
 
 .mailLink {
 	color: var(--mainColor) !important;
-	color: var(--lightGray) !important;
+	color: #20a58e !important;
 }
