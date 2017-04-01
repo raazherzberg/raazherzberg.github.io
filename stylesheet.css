@@ -82,7 +82,7 @@ a:link, a:visited, a:hover, a:active {
 
 #myName {
 	font-size: 1.5em;
-	padding: 30px 0 30px 27px;
+	padding: 30px 0 10px 27px;
 }
 
 .imgContainer {
@@ -93,7 +93,7 @@ a:link, a:visited, a:hover, a:active {
 	margin-right: 15px;
 	margin-bottom: 15px;
 	background: var(--mainColor);
-	background: #20a58e;
+	background: var(--lightGray);
 	position: relative;
 }
 
@@ -151,7 +151,7 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
 	background-color: var(--mainColor);
-	background-color: #20a58e;
+	background-color: var(--lightGray);
 	
 }
 
@@ -175,7 +175,7 @@ body::-webkit-scrollbar-thumb
 	opacity: 0;
 	font-weight: bold;
 	background: var(--mainColor);
-	background: #20a58e;
+	background: var(--lightGray);
 	transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -272,7 +272,7 @@ body::-webkit-scrollbar-thumb
     padding: 100px 0;
     font-weight: bold;
 	color: var(--mainColor);
-	color: #20a58e;
+	color: var(--lightGray);
 }
 
 .secHeader {
@@ -294,7 +294,7 @@ body::-webkit-scrollbar-thumb
 
 .projectDesc {
 	background: var(--mainColor);
-	background: #20a58e;
+	background: var(--lightGray);
 	color: white;
 }
 
@@ -304,5 +304,5 @@ body::-webkit-scrollbar-thumb
 
 .mailLink {
 	color: var(--mainColor) !important;
-	color: #20a58e !important;
+	color: var(--lightGray) !important;
 }
