@@ -164,35 +164,19 @@ body::-webkit-scrollbar-thumb
     transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
-	
+     -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
+.imgContainer:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
 
 .nameHover {
-	position: absolute;
-	width: var(--imageWidth);
-	width: 45vw;
-	color: white;
-	font-size: 2em;
-	opacity: 0;
-	font-weight: bold;
-	background: var(--mainColor);
-	background: var(--lightGray);
-	transition: opacity 0.2s ease-in-out;
-    -moz-transition: opacity 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out;
-	height: var(--imageHeight);
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nameHover:hover {
-	opacity: 0.8;
-	-webkit-transition: opacity 0.2s ease-in-out;
-	-moz-transition: opacity 0.2s ease-in-out;
-	-o-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.8em;
+	
 }
 
 .infoPage img {

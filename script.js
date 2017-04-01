@@ -15,13 +15,12 @@ $(document).ready(function(){
     // change background to yellow in menu upon hover
     $("a").hover(function(e){
     	if (!($(this).attr("id") == "myNameLink")){
-        $(this).css("background-color", "yellow");
+    	document.getElementById($(this).attr("id")).style.background = "yellow";
         }
         }, function(){
-        //if ($(e.target).hasClass('chosen')) {return;};
-        $(this).css("background-color", "white");
+        document.getElementById($(this).attr("id")).style.background = "white";
     });
-s
+
 	// Create IE + others compatible event handler
 	var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
 	var eventer = window[eventMethod];
