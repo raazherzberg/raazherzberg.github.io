@@ -1,7 +1,7 @@
 :root {
-  --mainColor: #20a58e;
-  --imageWidth: 45vw;
-  --imageHeight: 22.5vw;
+  --mainColor: #252f30;
+  --imageWidth: 25vw;
+  --imageHeight: 12.5vw;
   --black: #777;
   --lightGray: rgb(255,255,255);
   --pink: pink;
@@ -15,7 +15,7 @@
 @font-face {
     font-family: Raleway;
     src: url(raleway/Raleway-Bold.ttf);
-	font-weight: bold;
+	font-weight: regular;
 }
 
 @font-face {
