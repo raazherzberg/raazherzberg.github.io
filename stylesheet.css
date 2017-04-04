@@ -270,11 +270,11 @@ border='5';
 }
 
 .projectHeader {
-	font-size: 3em;
-    padding: 100px 0;
+	font-size: 1.2em;
+    padding: 30px 0;
     font-weight: bold;
-	color: var(--mainColor);
-	color: var(--lightGray);
+    font-family: 'Quicksand', sans-serif;
+    
 }
 
 .secHeader {
