@@ -109,6 +109,12 @@ a:link, a:visited, a:hover, a:active {
 	height: 200px;
 }
 
+.smallImageSpacer{
+	
+	height: 20px;
+}
+
+
 iframe {
 	border: none;
 }
@@ -269,10 +275,10 @@ body::-webkit-scrollbar-thumb
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 34.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
-	width:75%;
+	width:65%;
 }
 .videoWrapper iframe {
 	position: absolute;
