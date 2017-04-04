@@ -16,6 +16,7 @@ $(document).ready(function(){
     $("a").hover(function(e){
     	if (!($(this).attr("id") == "myNameLink")){
     	document.getElementById($(this).attr("id")).style.background = "yellow";
+    	document.getElementById($(this).attr("id") + "2").style.background = "yellow";
         }
         }, function(){
         document.getElementById($(this).attr("id")).style.background = "white";
