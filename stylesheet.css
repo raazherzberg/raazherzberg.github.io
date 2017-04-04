@@ -167,6 +167,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .imgContainer:hover img {
+	background-color: yellow;
 	font-family: 'Quicksand', sans-serif;
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
@@ -174,8 +175,12 @@ body::-webkit-scrollbar-thumb
 
 .nameHover {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 0.8em;
-	
+	font-size: 0.8em;	
+}
+
+.nameHover {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.8em;	
 }
 
 .infoPage img {
