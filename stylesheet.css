@@ -8,13 +8,11 @@
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url(raleway/Raleway-Regular.ttf);
+	font-family: 'Quicksand', sans-serif;
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url(raleway/Raleway-Bold.ttf);
+    font-family: 'Quicksand', sans-serif;
 	font-weight: light;
 }
 
@@ -34,7 +32,7 @@
 
 body {
 	background: var(--lightGray);
-	font-family: Raleway;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #mainArea {
@@ -169,6 +167,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .imgContainer:hover img {
+	font-family: 'Quicksand', sans-serif;
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
