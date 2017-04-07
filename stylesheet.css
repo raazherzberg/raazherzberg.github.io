@@ -209,6 +209,10 @@ width: 80%;
 width: 50%;
 }
 
+.tiny_image {
+width: 20%;
+}
+
 #nohover {
 border: none;
 }
