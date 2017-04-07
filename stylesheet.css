@@ -201,8 +201,12 @@ border='5';
 	font-size: 0.8em;	
 }
 
-.infoPage img {
-	width: 80%;
+.big_image {
+width: 80%;
+}
+
+.small_image {
+width: 50%;
 }
 
 #nohover {
